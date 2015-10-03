@@ -1,10 +1,14 @@
 # GravityDecode
-Python script for decoding the codes on the show Gravity Falls
+Python script for decoding the codes on the show Gravity Falls.
+Example:
+![Example] (first_code.png)
 
-
+More codes at http://gravityfalls.wikia.com/wiki/List_of_cryptograms.
 #How to use it
 
-Two modes: enter the code manually or with a txt file. Example: python decipher.py codes.txt
+Two modes: enter the code manually or with a txt file. 
+Example: python decipher.py codes.txt
+The script will recognize if the input is made of plaintext, binary or numbers.
 
 #License
 

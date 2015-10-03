@@ -97,9 +97,8 @@ def vigenere(line, key):
 
 def isText(line):
 	return not(any(char.isdigit() for char in line))
-print vigenere("MABELEATSSPRINKLES","GRAVITYGRAVITYGRAV")
+
 #Main function
-'''
 def main():
 	if len(sys.argv) == 1:
 		input = raw_input("Enter the text.\n")
@@ -108,7 +107,6 @@ def main():
 			print "ATBASH: " + atbash(input)
 			for a in range(1,26):
 				print "CESAR MOD " + str(a) + " " + cesar(input,a)
-
 		else:
 			try:
 				n = int(input,2)
@@ -118,4 +116,3 @@ def main():
 		
 if __name__ == '__main__':
 	main()
-'''
